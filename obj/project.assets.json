@@ -1286,25 +1286,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/jazmindestefano/.nuget/packages/": {}
+    "/Users/matiastonello/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jazmindestefano/Projects/PomeloAPI/PomeloAPI.csproj",
+      "projectUniqueName": "/Users/matiastonello/Desktop/PomeloAPI/PomeloAPI.csproj",
       "projectName": "PomeloAPI",
-      "projectPath": "/Users/jazmindestefano/Projects/PomeloAPI/PomeloAPI.csproj",
-      "packagesPath": "/Users/jazmindestefano/.nuget/packages/",
-      "outputPath": "/Users/jazmindestefano/Projects/PomeloAPI/obj/",
+      "projectPath": "/Users/matiastonello/Desktop/PomeloAPI/PomeloAPI.csproj",
+      "packagesPath": "/Users/matiastonello/.nuget/packages/",
+      "outputPath": "/Users/matiastonello/Desktop/PomeloAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jazmindestefano/.nuget/NuGet/NuGet.Config"
+        "/Users/matiastonello/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1359,7 +1358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

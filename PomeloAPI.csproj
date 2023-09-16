@@ -21,6 +21,7 @@
     <None Remove="Models\Users\" />
     <None Remove="Models\Cards\" />
     <None Remove="Models\Database\" />
+    <None Remove="ASP.NETCoreWebApplication1\**" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -28,5 +29,24 @@
     <Folder Include="Models\Users\" />
     <Folder Include="Models\Cards\" />
     <Folder Include="Models\Database\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ASP.NETCoreWebApplication1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="ASP.NETCoreWebApplication1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="ASP.NETCoreWebApplication1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\Pages\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\Pages\_ViewImports.cshtml" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\appsettings.json" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\obj\ASP.NETCoreWebApplication1.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="ASP.NETCoreWebApplication1\Properties\launchSettings.json" />
   </ItemGroup>
 </Project>
